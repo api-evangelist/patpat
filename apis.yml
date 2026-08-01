@@ -1,8 +1,18 @@
 aid: patpat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/patpat.png
 name: PatPat
-description: 'PatPat is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'PatPat is a direct-to-consumer children''s and family apparel retailer founded in 2014 by Albert Wang and Ken Gao, selling baby, toddler, and kids'' clothing along with matching family outfits, shoes, women''s clothing, bags, and accessories to consumers in more than 100 countries and regions. Backed by SoftBank Vision Fund 2, PatPat operates as an online marketplace and mobile-first shopping app, and is one of the largest direct-to-consumer players in the children''s apparel segment. This profile was surfaced as a portfolio company of SoftBank Vision Fund and enriched by the API Evangelist pipeline; PatPat does not currently publish a public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/patpat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +22,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Retail
+- E-Commerce
+- Apparel
+- Kids
+- Direct-to-Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/patpat-domain-security.yml
+- type: Website
+  url: https://www.patpat.com/
+- type: About
+  url: https://www.patpat.com/about
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
